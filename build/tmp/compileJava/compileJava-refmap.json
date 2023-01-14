@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/orh/client/mixin/list/Test": {
+      "drawDefaultBackground": "Lnet/minecraft/client/gui/GuiScreen;func_146276_q_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/orh/client/mixin/list/Test": {
+        "drawDefaultBackground": "Lnet/minecraft/client/gui/GuiScreen;func_146276_q_()V"
+      }
+    }
+  }
+}
