@@ -32,6 +32,10 @@ public class Command implements ORH {
         return this.description;
     }
 
+    public String getName() {
+        return this.getName();
+    }
+
     public void notify(String s) {
         mc.ingameGUI.getChatGUI().printChatMessage(new TextComponentString(ORH_PREFIX + s));
     }

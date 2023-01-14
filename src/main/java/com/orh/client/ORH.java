@@ -6,4 +6,5 @@ import net.minecraft.client.Minecraft;
 public interface ORH {
     Minecraft mc = Minecraft.getMinecraft();
     String ORH_PREFIX = ChatFormatting.LIGHT_PURPLE + "[ORH] " + ChatFormatting.RESET;
+    String ORH_COMMAND_PREFIX = ".";
 }

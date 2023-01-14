@@ -2,7 +2,7 @@
   "required": true,
   "compatibilityLevel": "JAVA_8",
   "package": "com.orh.client.mixin.list",
-  "refmap": "mixins.firework.refmap.json",
+  "refmap": "mixins.orh.refmap.json",
   "mixins": [
 
   ]

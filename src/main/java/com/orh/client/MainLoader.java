@@ -1,5 +1,6 @@
 package com.orh.client;
 
+import com.orh.client.commands.CommandManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,6 +20,7 @@ public class MainLoader
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
+        CommandManager commandManager = new CommandManager();
     }
 
     @EventHandler
