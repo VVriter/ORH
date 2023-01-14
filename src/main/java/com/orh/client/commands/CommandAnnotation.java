@@ -1,4 +1,4 @@
-package com.orh.client.mixin.commands;
+package com.orh.client.commands;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

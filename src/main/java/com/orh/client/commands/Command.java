@@ -1,4 +1,4 @@
-package com.orh.client.mixin.commands;
+package com.orh.client.commands;
 
 import com.orh.client.ORH;
 import net.minecraft.util.text.TextComponentString;
@@ -24,6 +24,7 @@ public class Command implements ORH {
     public void execute(String[] args) {
         if (args.length > max_args || args.length < min_args) {
             error("Вы неправильно используете команду! Описание команды: " + getDescription());
+            return;
         }
     }
 
